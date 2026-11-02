@@ -1,0 +1,33 @@
+{
+  "name": "hb-blog-cms",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Blog CMS — Next.js (App Router) + MongoDB Atlas + TipTap + Three.js",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "seed": "node --env-file=.env scripts/seed.mjs"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.2",
+    "@tiptap/extension-color": "^2.27.3",
+    "@tiptap/extension-highlight": "^2.27.3",
+    "@tiptap/extension-link": "^2.27.3",
+    "@tiptap/extension-text-style": "^2.27.3",
+    "@tiptap/extension-underline": "^2.27.3",
+    "@tiptap/pm": "^2.27.3",
+    "@tiptap/react": "^2.27.3",
+    "@tiptap/starter-kit": "^2.27.3",
+    "jose": "^5.10.0",
+    "mongoose": "^8.24.7",
+    "next": "^15.5.28",
+    "postcss": "^8.5.32",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "sanitize-html": "^2.18.1",
+    "three": "^0.187.0"
+  }
+}
